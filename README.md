@@ -41,8 +41,9 @@ npm install
 npm run start
 ```
 
+**ВАЖНО** Прежде, чем запустить backend, создайте файл **.env** в папке back и пропишите в нем: **DB_CONNECTION_STRING="[путь к своей базе данных MongoDB]"**
 Установите зависимости и запустите backend:
-Прежде, чем запустить, создайте файл **.env** в папке back и пропишите в нем: **DB_CONNECTION_STRING="[путь к своей базе данных MongoDB]"**
+
 ```
 cd back
 npm install
