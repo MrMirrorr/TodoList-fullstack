@@ -26,8 +26,8 @@
 
 ## Требования
 
-- Node.js
-- npm
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
 ## Установка и запуск
 
@@ -42,7 +42,7 @@ npm run start
 ```
 
 Установите зависимости и запустите backend:
-
+Прежде, чем запустить, создайте файл **.env** в папке back и пропишите в нем: **DB_CONNECTION_STRING="[путь к своей базе данных MongoDB]"**
 ```
 cd back
 npm install
@@ -55,4 +55,4 @@ npm run serve
 
 ## Лицензия
 
-The MIT License
+[The MIT License](https://github.com/MrMirrorr/TodoList-fullstack/blob/master/LICENSE.txt)
